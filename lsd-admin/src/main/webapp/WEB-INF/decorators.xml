@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<decorators defaultdir="/WEB-INF/jspview/decorators">
+
+    <!--main decorator-->
+    <decorator name="main" page="main.jsp">
+        <pattern>/sys/*</pattern>
+        <pattern>/bbs/*</pattern>
+        <pattern>/exam/*</pattern>
+        <pattern>/my*</pattern>
+    </decorator>
+
+
+</decorators>
